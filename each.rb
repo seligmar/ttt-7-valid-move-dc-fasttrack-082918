@@ -16,4 +16,4 @@ def fizz_buzz(num, factor)
   end 
 end 
 
-fizz_buzz(3)
+fizz_buzz(25)
