@@ -15,3 +15,5 @@ def fizz_buzz(num, factor)
     puts num
   end 
 end 
+
+fizz_buzz(3)
