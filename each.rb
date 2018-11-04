@@ -7,7 +7,7 @@ else
   return FALSE
 end 
 
-def fizz_buzz(num, factor)
+def fizz_buzz(num)
   if divisible_by?(num, 3) == TRUE && divisible_by?(num, 5) == TRUE 
     puts "FizzBuzz"
     elsif divisible_by?(num, 3) == TRUE
