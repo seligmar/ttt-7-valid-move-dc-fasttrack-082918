@@ -17,7 +17,6 @@ def fizz_buzz(num)
   else 
     puts num
   end 
-end
 end 
 
 fizz_buzz(25)
