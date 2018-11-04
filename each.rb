@@ -1,15 +1,18 @@
 arr = (1..100).to_a 
 
 def divisible_by?(num, factor) 
-  num % factor
+  num % factor == 0
+  return TRUE
+else 
+  return FALSE
 end 
 
 def fizz_buzz(num, factor)
-  if divisible_by?(num, 3) == 0 && divisible_by?(num, 5) == 0 
+  if divisible_by?(num, 3) == TRUE && divisible_by?(num, 5) == TRUE 
     puts "FizzBuzz"
-    elsif divisible_by?(num, 3) == 0
+    elsif divisible_by?(num, 3) == TRUE
     puts "Fizz"
-    elsif divisible_by?(num, 5) == 0
+    elsif divisible_by?(num, 5) == TRUE
     puts "Buzz"
   else 
     puts num
